@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1440px) {
+
+        body{
+    background-image: url('poppy-.jpg');
+    background-position: 0px 0px 0px 0px; 
+    background-size: 250vh 70vw;
+}
+
+h1{
+  text-align: center;
+  font-size: 6vh;
+  font-style: Famous;
+}
+
+h2{
+  text-align: center;
+  font-size: 3.5vh;
+  font-style: Famous;
+}
+
+p{
+  font-size: 4vh;
+  color: black;
+  font-style: Famous;
+  text-align: left;
+  margin-left: 10%;
+}
+
+textarea{
+    width: 50vw;
+    height: 10vh;
+    box-sizing: border-box;
+    border: 1vh solid rgb(255, 136, 0);
+    border-right: 0vw;
+    border-left: 0vw;
+    padding-top: 1vh;
+    padding-bottom: 0.1vh;
+    border-radius: 2vh;
+    font-size: 3vh;
+    background-color: white;
+    background-image: url('poppy-.jpg');
+    background-position: 0px 0px 0px 0px; 
+    background-size: 150vh 40vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[name=theSinger] {
+    width: 20.2vw;
+    box-sizing: border-box;
+    border-top: 1vh solid  #f33303;
+    border-bottom: 1vh solid  #f33303;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-radius: 2vh;
+    font-size: 3vh;
+    background-color: white;
+    background-image: url('poppy-.jpg');
+    background-position: 0px 0px 0px 0px; 
+    background-size: 40vh 10vw;
+    background-repeat: no-repeat;
+    padding: 1vh 1vw 1vh 1vw;
+    font-style: Famous;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+input[name=letter] {
+    width: 30vw;
+    box-sizing: border-box;
+    border-top: 1vh solid  rgb(255, 136, 0);
+    border-bottom: 1vh solid  rgb(255, 136, 0);
+    border-right: 0vw;
+    border-left: 0vw;
+    border-radius: 2vh;
+    font-size: 3vh;
+    font-style: Famous;
+    background-color: white;
+    background-image: url('poppy-.jpg');
+    background-position: 0px 0px 0px 0px; 
+    background-size: 60vh 20vw;
+    background-repeat: no-repeat;
+    padding: 1vh 1vw 1vh 1vw;
+    margin-right: auto;
+    margin-left: 2%;
+}
+
+button {
+    border-style: 1vh solid #b694a5;
+    border-radius: 1vh;
+    margin-bottom: 0.75vh;
+    color: #fff1f1;
+    height: 7vh;
+    width: 7vh;
+    padding:0.75vh 0.75vw ;
+    font-size: 4vh;
+    font-style: Famous;
+    cursor: pointer;
+    background-color: rgb(241, 97, 40);
+}
+button:hover {background-color: rgb(255, 208, 0);}
+
+.restart{
+    height: 8vh;
+    width: 30vh;
+    font-size: 4vh;
+    color: rgb(119, 121, 106);
+    background-color: rgb(255, 208, 0);
+    border-color: 1vh solid hsl(56, 96%, 52%);
+    font-style: Famous;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.restart:hover {background-color: #f84d09;}
+}

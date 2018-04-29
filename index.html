@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+ <script src="game.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
+<title>Guess the Famous Singer, by Angelina Davies</title>
+
+</head>
+<body>
+<h1>Guess the Famous Singer</h1>
+<h2> ReStart & Touch any Letter to Begin</h2>
+<form name="SingersGame">
+<PRE>
+<textarea name="status" rows="7" cols="16"
+ onclick="run()"></textarea>
+</PRE><p>Guess this Famous Singer from 10 Attempts! <input type="text" name="theSinger" onclick="run()"><br>
+<p>You already guessed these letters: <input type="text" name="letter" onclick="run()"><br>
+<p>Touch any Letter to Begin:</p>
+<p><button input type="button" value=" A " onclick="guess('A')">A</button>
+<button input type="button" value=" B " onclick="guess('B')">B</button>
+<button input type="button" value=" C " onclick="guess('C')">C</button>
+<button input type="button" value=" D " onclick="guess('D')">D</button>
+<button input type="button" value=" E " onclick="guess('E')">E</button>
+<button input type="button" value=" F " onclick="guess('F')">F</button>
+<button input type="button" value=" G " onclick="guess('G')">G</button>
+<button input type="button" value=" H " onclick="guess('H')">H</button>
+<button input type="button" value=" I " onclick="guess('I')">I</button>
+<button input type="button" value=" J " onclick="guess('J')">J</button>
+<button input type="button" value=" K " onclick="guess('K')">K</button>
+<button input type="button" value=" L " onclick="guess('L')">L</button>
+<button input type="button" value=" M " onclick="guess('M')">M</button>
+<button input type="button" value=" N " onclick="guess('N')">N</button>
+<button input type="button" value=" O " onclick="guess('O')">O</button>
+<button input type="button" value=" P " onclick="guess('P')">P</button>
+<button input type="button" value=" Q " onclick="guess('Q')">Q</button>
+<button input type="button" value=" R " onclick="guess('R')">R</button>
+<button input type="button" value=" S " onclick="guess('S')">S</button>
+<button input type="button" value=" T " onclick="guess('T')">T</button>
+<button input type="button" value=" U " onclick="guess('U')">U</button>
+<button input type="button" value=" V " onclick="guess('V')">V</button>
+<button input type="button" value=" W " onclick="guess('W')">W</button>
+<button input type="button" value=" X " onclick="guess('X')">X</button>
+<button input type="button" value=" Y " onclick="guess('Y')">Y</button>
+<button input type="button" value=" Z " onclick="guess('Z')">Z</button></p></p>
+<button input type="button" class="restart" name="restart" value="RESTART"
+ onclick="resetGame()">reSTART</button>
+</form>
+</body>
+</html>
+
