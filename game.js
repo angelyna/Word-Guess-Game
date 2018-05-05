@@ -108,8 +108,8 @@ function guess(k){
  displaySinger()
  displayLetters()
  if(attempts == max){
-  resetGame()
   alert("The Famous Singer was "+theSinger+". Play again?")
+  resetGame()
  }
  if(winner()) {
 displaySinger()
