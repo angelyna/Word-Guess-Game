@@ -53,16 +53,14 @@ function resetGame() {
  attempts = 0
  max = rAttempts.length
  letter = " "
- var remove = document.getElementById('img')
- remove.removeChild(remove.childNodes[0])
  randomno = Singers[Math.round((Singers.length - 1)*Math.random())]
  theSinger = randomno.name.toUpperCase()
  thePic = randomno.src
  displayAttempts()
  displaySinger()
  displayLetters()
- var x = document.getElementById(thePic);
- x.remove(x.thePic);
+ var remove = document.getElementById('img')
+ remove.removeChild(remove.childNodes[0])
 }
 
 function displayAttempts() {
